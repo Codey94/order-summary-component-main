@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Space+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: #e5ebfc;
+    background-color: hsl(225, 100%, 94%);
     background-image: url(/Assets/IMGs/pattern-background-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -26,7 +28,7 @@
     background-color: #fff;
 }
 
-.cta img {
+.banner {
     min-width: 100%;
     max-width: 100%;
 }
@@ -45,59 +47,59 @@
     margin: 15px;
     width: 100%;
     font-weight: 700;
-    font-family: "cursive", system-ui;
+    font-family: "Red Hat Display", system-ui;
     font-size: 28px;
-    color: #243463;
+    color: hsl(223, 47%, 23%);
 }
 
 .text-container p {
-    font-size: 18px;
+    width: 273px;
+    font-size: 16px;
     line-height: 30px;
-    font-family: "cursive", system-ui;
+    font-family: "Red Hat Display", system-ui;
     font-weight: 630;
-    color: #9098ad;
+    color: hsl(224, 23%, 55%);
 }
 
 .icon-section {
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 0px;
+    padding: 0px 10px;
     display: flex;
     flex-direction: row;
-    background-color: #eff3ff;
+    background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
-    font-family: "cursive", system-ui;
-    font-size: 18px;
+    font-family: "Red Hat Display", "cursive";
+    font-size: 16px;
 }
 
 .icon-card {
     display: flex;
     padding: 10px;
-    margin: 10px;
 }
 
 .icon-card-p {
     padding-bottom: 2.5px;
     font-weight: 700;
-    color: #1e2c57;
+    color: hsl(223, 47%, 23%);
 }
 
 .icon-card-p2 {
     padding-top: 2.5px;
     font-weight: 500;
-    color: #9098ad;
+    color: hsl(224, 23%, 55%);
 }
 
 .icon-card-p3 {
     font-weight: 700;
     cursor: pointer;
-    color: #5043e2;
+    color: hsl(245, 75%, 52%);
 }
 
 .icon-card-p3:hover {
     color: #6e64e2;
-    transition: ease-in-out;
-    transition-delay: 0.5s;
+    transition: ease-in;
 }
 
 .payment-button {
@@ -106,15 +108,24 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    padding: 15px 85px;
+    padding: 15px 55px;
     margin: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    font-family: "cursive", system-ui;
-    background-color: #382AE1;
+    font-family: "Red Hat Display", system-ui;
+    background-color: hsl(245, 75%, 52%);
     color: #fff;
-    box-shadow: 0px 10px 30px 5px #9098ad;
+    box-shadow: 0px 10px 30px hsl(225, 100%, 86%);
     cursor: pointer;
+    text-align: center;
+}
+
+.payment-button:hover {
+    background-color: hsl(245, 67%, 63%);
+}
+
+.payment-button p {
+    width: 160px;
 }
 
 .cancel-button {
@@ -123,11 +134,20 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    padding: 15px 85px;
+    padding: 15px 55px;
     margin: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    font-family: "cursive", system-ui;
-    color: rgb(116, 126, 136);
+    font-family: "Red Hat Display", system-ui;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-button p {
+    width: 115px;
+    text-align: center;
+}
+
+.cancel-button p:hover {
+    color: hsl(223, 47%, 23%);
 }
 
