@@ -155,5 +155,34 @@
     color: hsl(223, 47%, 23%);
 }
 
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        background-image: url(/Assets/IMGs/pattern-background-desktop.svg);
+    }
 
+    .cta {
+        max-width: 430px;
+    }
+
+    .text-container h1 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .icon-card-p3 u {
+        margin-left: 60px;
+    }
+
+    .payment-button {
+        padding: 15px 89px;
+    }
+
+    .text-container p {
+        width: 295px;
+    }
+
+    .cancel-button {
+        margin-bottom: 40px;
+    }
+}
 
