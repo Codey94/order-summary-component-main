@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 90%;
+    max-width: 90%;
     border-radius: 25px;
     overflow: auto;
     background-color: #fff;
@@ -64,19 +64,19 @@
 .icon-section {
     align-items: center;
     justify-content: center;
-    margin: 20px 0px;
-    padding: 0px 10px;
+    margin: 1.25rem 0rem; /* 20px 0px */
+    padding: 0rem 0.625rem; /* 0px 10px */
     display: flex;
     flex-direction: row;
     background-color: hsl(225, 100%, 98%);
-    border-radius: 15px;
+    border-radius: 0.9375rem; /* 15px */
     font-family: "Red Hat Display", "cursive";
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
 }
 
 .icon-card {
     display: flex;
-    padding: 10px;
+    padding: 10px; /* 10px */
 }
 
 .icon-card-p {
@@ -122,6 +122,7 @@
     box-shadow: 0px 20px 30px hsl(225, 100%, 86%);
     cursor: pointer;
     text-align: center;
+    border: none;
 }
 
 .payment-button:hover {
@@ -144,6 +145,8 @@
     font-weight: 900;
     font-family: "Red Hat Display", system-ui;
     color: hsl(224, 23%, 55%);
+    border: none;
+    cursor: pointer;
 }
 
 .cancel-button p {
