@@ -145,6 +145,7 @@
     font-weight: 900;
     font-family: "Red Hat Display", system-ui;
     color: hsl(224, 23%, 55%);
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }
