@@ -22,10 +22,10 @@
     align-items: center;
     height: auto;
     max-width: 90%;
-    border-radius: 25px;
+    border-radius: 1.5625rem; /* 25px */
     overflow: auto;
     background-color: #fff;
-    box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+    box-shadow: 0px 0.625rem 1.25rem hsl(224, 23%, 55%); /* 0px, 10px, 20px*/
 }
 
 .banner {
@@ -43,19 +43,19 @@
 }
 
 .text-container h1 {
-    padding: 10px;
-    margin: 15px;
+    padding: 0.625rem; /* 10px */
+    margin: 0.9375rem; /* 15px */
     width: 100%;
     font-weight: 900;
     font-family: "Red Hat Display", system-ui;
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
     color: hsl(223, 47%, 23%);
 }
 
 .text-container p {
-    width: 273px;
-    font-size: 16px;
-    line-height: 30px;
+    width: 17.0625rem; /* 273px */
+    font-size: 1rem; /* 16px */
+    line-height: 1.875rem; /* 30px */
     font-family: "Red Hat Display", system-ui;
     font-weight: 500;
     color: hsl(224, 23%, 55%);
@@ -76,17 +76,17 @@
 
 .icon-card {
     display: flex;
-    padding: 10px; /* 10px */
+    padding: 0.625rem; /* 10px */
 }
 
 .icon-card-p {
-    padding-bottom: 2.5px;
+    padding-bottom: 0.15625rem; /* 2.5px */
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 
 .icon-card-p2 {
-    padding-top: 2.5px;
+    padding-top: 0.15625rem; /* 2.5px */
     font-weight: 500;
     color: hsl(224, 23%, 55%);
 }
@@ -98,7 +98,7 @@
 }
 
 .icon-card-p3 u {
-    margin-left: 30px;
+    margin-left: 1.875rem; /* 30px */
 }
 
 .icon-card-p3:hover {
@@ -111,15 +111,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
-    padding: 15px 73px;
-    margin: 10px;
-    font-size: 16px;
+    border-radius: 0.9375rem; /* 15px */
+    padding: 0.9375rem 4.5625rem; /* 15px, 73px */
+    margin: 0.625rem; /* 10px */
+    font-size: 1rem; /* 16px */
     font-weight: 700;
     font-family: "Red Hat Display", system-ui;
     background-color: hsl(245, 75%, 52%);
     color: #fff;
-    box-shadow: 0px 20px 30px hsl(225, 100%, 86%);
+    box-shadow: 0rem 1.25rem 1.875rem hsl(225, 100%, 86%); /* 0px, 20px, 30px */
     cursor: pointer;
     text-align: center;
     border: none;
@@ -130,7 +130,7 @@
 }
 
 .payment-button p {
-    width: 160px;
+    width: 10rem; /* 160px */
 }
 
 .cancel-button {
@@ -138,10 +138,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
-    padding: 15px 73px;
-    margin-bottom: 25px;
-    font-size: 16px;
+    border-radius: 0.9375rem; /* 15px */
+    padding: 0.9375rem 4.5625rem; /* 15px, 73px */
+    margin-bottom: 1.5625rem; /* 25px */
+    font-size: 1rem; /* 16px */
     font-weight: 900;
     font-family: "Red Hat Display", system-ui;
     color: hsl(224, 23%, 55%);
@@ -150,7 +150,7 @@
 }
 
 .cancel-button p {
-    width: 115px;
+    width: 7.1875rem; /* 115px */
     text-align: center;
 }
 
@@ -164,28 +164,28 @@
     }
 
     .cta {
-        max-width: 430px;
+        max-width: 26.875rem; /* 430px */
     }
 
     .text-container h1 {
-        margin-top: 30px;
-        margin-bottom: 5px;
+        margin-top: 1.875rem; /* 30px */
+        margin-bottom: 0.3125rem; /* 5px */
     }
 
     .icon-card-p3 u {
-        margin-left: 60px;
+        margin-left: 3.75rem; /* 60px */
     }
 
     .payment-button {
-        padding: 15px 89px;
+        padding: 0.9375rem 5.5625rem ; /* 15px, 89px */
     }
 
     .text-container p {
-        width: 295px;
+        width: 18.4375rem; /* 295px */
     }
 
     .cancel-button {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem; /* 40px */
     }
 }
 
